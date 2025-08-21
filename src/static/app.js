@@ -69,7 +69,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
       messageDiv.classList.remove("hidden");
 
-      // Hide message after 5 seconds
+      // Hide message after 5.0 seconds
       setTimeout(() => {
         messageDiv.classList.add("hidden");
       }, 5000);
